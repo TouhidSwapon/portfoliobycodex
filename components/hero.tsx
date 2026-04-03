@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { profile } from "@/data/profile";
 
@@ -74,6 +75,16 @@ export function Hero() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="glass-card rounded-3xl p-6"
         >
+          <div className="relative mb-5 overflow-hidden rounded-2xl border border-[color:var(--edge)]">
+            <Image
+              src="/images/legacy/avatar.jpg"
+              alt="Touhid Swapon portrait"
+              width={640}
+              height={420}
+              className="h-48 w-full object-cover"
+              priority
+            />
+          </div>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-[color:var(--muted)]">Identity Signal</p>
           <div className="relative mt-4 min-h-12 text-xl font-medium text-[color:var(--text)]">
             <AnimatePresence mode="wait">

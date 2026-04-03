@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal } from "./reveal";
 
 export function FitnessSection() {
@@ -10,6 +11,15 @@ export function FitnessSection() {
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">
         <Reveal className="glass-card rounded-2xl p-6">
+          <div className="mb-4 overflow-hidden rounded-xl border border-[color:var(--edge)]">
+            <Image
+              src="/images/legacy/blog-2.jpg"
+              alt="Discipline and consistency visual"
+              width={640}
+              height={360}
+              className="h-44 w-full object-cover"
+            />
+          </div>
           <p className="text-sm leading-7 text-[color:var(--muted)]">
             Fitness keeps me grounded in process over mood. It reinforces patience, repetition, and measurable progression, the
             same behaviors needed for mentoring teams and delivering high-quality software under real constraints.
