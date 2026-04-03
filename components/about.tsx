@@ -22,11 +22,12 @@ export function AboutSection() {
         <Reveal className="glass-card rounded-2xl p-5" delay={0.1}>
           <div className="relative mb-4 overflow-hidden rounded-xl border border-[color:var(--edge)]">
             <Image
-              src="/images/legacy/man.svg"
-              alt="Touhid Swapon illustration"
+              src="/images/legacy/avatar.jpg"
+              alt="Touhid Swapon profile photo"
               width={520}
               height={420}
-              className="h-44 w-full bg-white/60 object-contain p-4 dark:bg-slate-900/50"
+              className="h-52 w-full object-cover"
+              style={{ objectPosition: "50% 18%" }}
             />
           </div>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-[color:var(--muted)]">Profile Snapshot</p>

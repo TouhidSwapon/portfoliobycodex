@@ -2,7 +2,29 @@ import { projects } from "@/data/profile";
 import Image from "next/image";
 import { Reveal } from "./reveal";
 
-const projectVisuals = ["/images/legacy/folio-1.jpg", "/images/legacy/folio-4.jpg", "/images/legacy/folio-5.jpg"];
+const projectVisualMap: Record<string, { src: string; focus: string; note: string }> = {
+  "Mobile Product Reliability Program": {
+    src: "/images/legacy/folio-4.jpg",
+    focus: "52% 40%",
+    note: "Reliability and release excellence"
+  },
+  "Cross-Platform Delivery Evolution": {
+    src: "/images/legacy/folio-1.jpg",
+    focus: "50% 44%",
+    note: "Cross-platform engineering transition"
+  },
+  "Mentor-Led Capability Building": {
+    src: "/images/legacy/folio-6.jpg",
+    focus: "48% 30%",
+    note: "Mentorship-led team growth"
+  }
+};
+
+const fallbackVisual = {
+  src: "/images/legacy/folio-5.jpg",
+  focus: "50% 40%",
+  note: "Product delivery narrative"
+};
 
 export function ProjectsSection() {
   return (
@@ -13,7 +35,10 @@ export function ProjectsSection() {
       </Reveal>
 
       <div className="mt-8 grid gap-6">
-        {projects.map((project, index) => (
+        {projects.map((project, index) => {
+          const visual = projectVisualMap[project.title] ?? fallbackVisual;
+
+          return (
           <Reveal
             key={project.title}
             delay={index * 0.06}
@@ -22,12 +47,16 @@ export function ProjectsSection() {
             <div className="grid gap-5 md:grid-cols-[230px_1fr]">
               <div className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
                 <Image
-                  src={projectVisuals[index % projectVisuals.length]}
+                  src={visual.src}
                   alt={`${project.title} visual`}
                   width={460}
                   height={340}
                   className="h-full min-h-44 w-full object-cover"
+                  style={{ objectPosition: visual.focus }}
                 />
+                <p className="border-t border-[color:var(--edge)] px-3 py-2 text-[11px] uppercase tracking-[0.12em] text-[color:var(--muted)]">
+                  {visual.note}
+                </p>
               </div>
 
               <div>
@@ -49,7 +78,8 @@ export function ProjectsSection() {
               </div>
             </div>
           </Reveal>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

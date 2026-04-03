@@ -13,11 +13,12 @@ export function FitnessSection() {
         <Reveal className="glass-card rounded-2xl p-6">
           <div className="mb-4 overflow-hidden rounded-xl border border-[color:var(--edge)]">
             <Image
-              src="/images/legacy/blog-2.jpg"
-              alt="Discipline and consistency visual"
+              src="/images/legacy/avatar.jpg"
+              alt="Touhid Swapon lifestyle portrait"
               width={640}
               height={360}
               className="h-44 w-full object-cover"
+              style={{ objectPosition: "50% 12%" }}
             />
           </div>
           <p className="text-sm leading-7 text-[color:var(--muted)]">
