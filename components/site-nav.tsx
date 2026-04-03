@@ -1,6 +1,7 @@
 import { ThemeToggle } from "./theme-toggle";
 
 const navItems = [
+  { label: "Identity", href: "#identity" },
   { label: "About", href: "#about" },
   { label: "Capabilities", href: "#capabilities" },
   { label: "Experience", href: "#experience" },

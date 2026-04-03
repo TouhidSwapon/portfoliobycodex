@@ -237,3 +237,54 @@ export const communityGallery = [
     image: "/images/highlights/community/community-firebase-uiu.jpg"
   }
 ];
+
+export const talentSegments = [
+  {
+    title: "App Developer",
+    status: "Core Profession",
+    description:
+      "Mobile engineering is my strongest lane, from Android depth to cross-platform delivery.",
+    proofLabel: "Projects and delivery history",
+    href: "#projects"
+  },
+  {
+    title: "Mentor",
+    status: "Active",
+    description:
+      "I guide engineers from task execution to stronger decision-making and ownership.",
+    proofLabel: "Mentorship and community timeline",
+    href: "#experience"
+  },
+  {
+    title: "Speaker",
+    status: "Legacy with momentum",
+    description:
+      "I have spoken across community programs and technical events in the ecosystem.",
+    proofLabel: "Awards and community visuals",
+    href: "#highlights"
+  },
+  {
+    title: "Fitness Enthusiast",
+    status: "Operating system",
+    description:
+      "Discipline from fitness translates directly to consistency, focus, and leadership energy.",
+    proofLabel: "Fitness mindset section",
+    href: "#fitness"
+  },
+  {
+    title: "Voice-over Artist",
+    status: "Emerging track",
+    description:
+      "I am actively growing this communication skill into a professional creative lane.",
+    proofLabel: "Current focus and identity arc",
+    href: "#now"
+  },
+  {
+    title: "AI Presenter",
+    status: "Strategic growth",
+    description:
+      "I am building AI-aware communication and presentation capability for modern tech leadership.",
+    proofLabel: "Thinking and AI direction",
+    href: "#thinking"
+  }
+];

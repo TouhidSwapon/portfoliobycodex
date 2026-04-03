@@ -5,6 +5,7 @@ import { ContactSection } from "@/components/contact";
 import { ExperienceSection } from "@/components/experience";
 import { FitnessSection } from "@/components/fitness";
 import { Hero } from "@/components/hero";
+import { IdentitySegmentsSection } from "@/components/identity-segments";
 import { LegacyHighlightsSection } from "@/components/legacy-highlights";
 import { NowFocusSection } from "@/components/now-focus";
 import { ProjectsSection } from "@/components/projects";
@@ -16,6 +17,7 @@ export default function HomePage() {
     <main>
       <SiteNav />
       <Hero />
+      <IdentitySegmentsSection />
       <AboutSection />
       <CapabilitiesSection />
       <ExperienceSection />
