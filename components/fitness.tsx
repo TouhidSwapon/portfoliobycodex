@@ -49,54 +49,51 @@ export function FitnessSection() {
         <h2 className="section-title">Discipline from fitness that strengthens leadership.</h2>
       </Reveal>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[1.12fr_0.88fr]">
-        <Reveal className="glass-card rounded-2xl p-5">
-          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
-            Workout Moments
-          </p>
-          <div className="mt-4 overflow-hidden rounded-xl border border-[color:var(--edge)]">
-            <Image
-              src={primaryImage.src}
-              alt={primaryImage.alt}
-              width={960}
-              height={1280}
-              sizes="(min-width: 1024px) 42vw, (min-width: 768px) 50vw, 100vw"
-              quality={70}
-              className="aspect-[4/5] w-full object-cover"
-              style={{ objectPosition: primaryImage.focus }}
-            />
+      <Reveal className="mt-8 glass-card rounded-2xl p-5">
+        <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
+          Workout Moments
+        </p>
+        <div className="mt-4 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <div className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
+              <Image
+                src={primaryImage.src}
+                alt={primaryImage.alt}
+                width={960}
+                height={1280}
+                sizes="(min-width: 1024px) 42vw, (min-width: 768px) 50vw, 100vw"
+                quality={70}
+                className="aspect-[4/5] w-full object-cover"
+                style={{ objectPosition: primaryImage.focus }}
+              />
+            </div>
+
+            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {secondaryImages.map((image, index) => (
+                <div key={image.src} className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={960}
+                    height={1280}
+                    sizes="(min-width: 1024px) 13vw, (min-width: 640px) 28vw, 45vw"
+                    quality={68}
+                    loading={index < 2 ? "eager" : "lazy"}
+                    className="aspect-[4/5] w-full object-cover transition duration-300 hover:scale-[1.02]"
+                    style={{ objectPosition: image.focus }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-            {secondaryImages.map((image, index) => (
-              <div key={image.src} className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  width={960}
-                  height={1280}
-                  sizes="(min-width: 1024px) 13vw, (min-width: 640px) 28vw, 45vw"
-                  quality={68}
-                  loading={index < 2 ? "eager" : "lazy"}
-                  className="aspect-[4/5] w-full object-cover transition duration-300 hover:scale-[1.02]"
-                  style={{ objectPosition: image.focus }}
-                />
-              </div>
-            ))}
-          </div>
-        </Reveal>
-
-        <Reveal className="grid gap-6" delay={0.08}>
-          <article className="glass-card rounded-2xl p-6">
+          <div className="rounded-xl border border-[color:var(--edge)] bg-white/60 p-5 dark:bg-slate-950/45">
             <p className="text-sm leading-7 text-[color:var(--muted)]">
               These are real workout moments from my routine. Fitness keeps me grounded in process over mood. It
               reinforces patience, repetition, and measurable progression, the same behaviors needed for mentoring
               teams and delivering high-quality software under real constraints.
             </p>
-          </article>
-
-          <article className="glass-card rounded-2xl p-6">
-            <p className="mb-4 font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
+            <p className="mb-4 mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
               Discipline Signals
             </p>
             <ul className="space-y-3 text-sm text-[color:var(--muted)]">
@@ -113,9 +110,9 @@ export function FitnessSection() {
                 <span>Leadership energy is physical too: strong output requires sustainable routines.</span>
               </li>
             </ul>
-          </article>
-        </Reveal>
-      </div>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }
