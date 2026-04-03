@@ -26,6 +26,8 @@ export function AboutSection() {
               alt="Touhid Swapon profile photo"
               width={520}
               height={420}
+              sizes="(min-width: 768px) 320px, 100vw"
+              quality={72}
               className="h-52 w-full object-cover"
               style={{ objectPosition: "50% 18%" }}
             />

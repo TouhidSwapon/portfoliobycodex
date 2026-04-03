@@ -5,7 +5,7 @@ export const profile = {
   email: "touhid.swapon@gmail.com",
   headline: "Software Engineer -> Mentor -> Future Tech Leader",
   heroStatement:
-    "I build resilient products, grow people, and design teams that stay relevant in the AI era.",
+    "I build resilient products and mentor teams to lead confidently in the AI era.",
   heroRotator: [
     "AI-aware builder",
     "Strategic mentor",
@@ -20,9 +20,9 @@ export const profile = {
 };
 
 export const aboutStory = [
-  "I started as a focused, introverted Android developer who preferred solving problems quietly. Over the years, complex products taught me that strong software is never just code; it is communication, alignment, and repeated disciplined decisions.",
-  "That shift moved me from individual delivery into mentoring and leadership. I now enjoy coaching engineers, shaping technical direction, and helping teams execute with clarity under pressure.",
-  "My foundation in Electronics and Communication Engineering still shapes how I think: systems first, constraints clear, and outcomes measurable. In parallel, fitness became my operating system for consistency. The same discipline that drives training drives product quality."
+  "I started as a focused Android developer who preferred quiet execution. Over time, real product work taught me that great software depends on communication, alignment, and disciplined decisions.",
+  "That shift moved me from individual delivery to mentoring and leadership. Today I coach engineers, shape technical direction, and help teams execute clearly under pressure.",
+  "My Electronics and Communication Engineering background keeps my thinking system-driven and outcome-focused. Fitness reinforces the same habit: consistency over intensity."
 ];
 
 export const capabilities = [
@@ -169,15 +169,15 @@ export const projects = [
 export const insights = [
   {
     title: "AI Won't Replace Developers Who Can Think in Systems",
-    body: "Code generation is becoming cheaper, but product judgment is becoming more valuable. Engineers who can connect context, tradeoffs, users, and business outcomes will lead the next cycle."
+    body: "Code is cheaper to produce now. Product judgment is not. Engineers who connect context, tradeoffs, users, and outcomes will keep leading."
   },
   {
     title: "Future Careers Will Reward Learning Velocity",
-    body: "Tools will keep changing. The durable edge is the ability to learn quickly, adapt workflows, and keep quality stable while adopting new capabilities."
+    body: "Tools will keep changing. The durable edge is learning quickly and adapting workflows without dropping quality."
   },
   {
     title: "Leadership in Tech Is a Communication Discipline",
-    body: "Great technical leadership is not loud authority. It is consistent clarity: setting direction, reducing ambiguity, and helping others make strong decisions."
+    body: "Technical leadership is consistent clarity: set direction, reduce ambiguity, and help others make strong decisions."
   }
 ];
 
@@ -202,10 +202,6 @@ export const awardGallery = [
     image: "/images/highlights/awards/award-world-summit-delhi.jpg"
   },
   {
-    title: "With Honorable Speakers at the World Summit Award, Delhi",
-    image: "/images/highlights/awards/award-honourable-speakers.jpg"
-  },
-  {
     title: "Receiving the Best Host and Volunteer Award",
     image: "/images/highlights/awards/award-best-host-volunteer.jpg"
   },
@@ -225,10 +221,6 @@ export const communityGallery = [
     image: "/images/highlights/community/community-vr-grammeenphone.jpg"
   },
   {
-    title: "Speaking on Mobile App Development at Southeast University",
-    image: "/images/highlights/community/community-southeast-talk.jpg"
-  },
-  {
     title: "Speaking at BRAC University",
     image: "/images/highlights/community/community-brac-talk.jpg"
   },
@@ -237,23 +229,11 @@ export const communityGallery = [
     image: "/images/highlights/community/community-devfest-prize.jpg"
   },
   {
-    title: "Hosting a Community Program Session",
-    image: "/images/highlights/community/community-hosting-session-1.jpg"
-  },
-  {
     title: "Hosting a Technical Program Session",
     image: "/images/highlights/community/community-hosting-session-2.jpg"
   },
   {
-    title: "Speaking at Google DevFest in My University",
-    image: "/images/highlights/community/community-devfest-university-talk.jpg"
-  },
-  {
     title: "Talking on Firebase at UIU Lab",
     image: "/images/highlights/community/community-firebase-uiu.jpg"
-  },
-  {
-    title: "Speaking at Women Techmakers Program, ULAB",
-    image: "/images/highlights/community/community-ulab-wtm.jpg"
   }
 ];

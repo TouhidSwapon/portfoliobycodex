@@ -51,6 +51,8 @@ export function ProjectsSection() {
                   alt={`${project.title} visual`}
                   width={460}
                   height={340}
+                  sizes="(min-width: 768px) 230px, 100vw"
+                  quality={70}
                   className="h-full min-h-44 w-full object-cover"
                   style={{ objectPosition: visual.focus }}
                 />

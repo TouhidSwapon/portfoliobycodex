@@ -81,6 +81,8 @@ export function Hero() {
               alt="Touhid Swapon portrait"
               width={640}
               height={420}
+              sizes="(min-width: 768px) 320px, 100vw"
+              quality={72}
               className="h-56 w-full object-cover"
               style={{ objectPosition: "50% 16%" }}
               priority

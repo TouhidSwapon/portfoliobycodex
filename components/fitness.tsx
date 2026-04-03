@@ -17,6 +17,8 @@ export function FitnessSection() {
               alt="Touhid Swapon on stage during a community program"
               width={640}
               height={360}
+              sizes="(min-width: 768px) 50vw, 100vw"
+              quality={72}
               className="h-44 w-full object-cover"
               style={{ objectPosition: "50% 28%" }}
             />
