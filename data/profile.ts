@@ -10,7 +10,7 @@ export const profile = {
     "AI-aware builder",
     "Strategic mentor",
     "Technical speaker",
-    "Voice-over in progress",
+    "Voice-over in training",
     "Calm technical leader",
     "Communication-first engineer"
   ],
@@ -245,8 +245,9 @@ export const communityGallery = [
 export const talentSegments = [
   {
     lane: "Build",
+    maturity: "proven",
     title: "App Developer",
-    status: "Core Profession",
+    status: "Proven",
     description:
       "Mobile engineering is my strongest lane, from Android depth to cross-platform delivery.",
     proofLabel: "Projects and delivery history",
@@ -254,8 +255,9 @@ export const talentSegments = [
   },
   {
     lane: "Lead",
+    maturity: "proven",
     title: "Mentor",
-    status: "Active",
+    status: "Proven",
     description:
       "I guide engineers from task execution to stronger decision-making and ownership.",
     proofLabel: "Mentorship and community timeline",
@@ -263,8 +265,9 @@ export const talentSegments = [
   },
   {
     lane: "Lead",
+    maturity: "proven",
     title: "Speaker",
-    status: "Legacy with momentum",
+    status: "Proven",
     description:
       "I have spoken across community programs and technical events in the ecosystem.",
     proofLabel: "Awards and community visuals",
@@ -272,8 +275,9 @@ export const talentSegments = [
   },
   {
     lane: "Discipline",
+    maturity: "proven",
     title: "Fitness Enthusiast",
-    status: "Operating system",
+    status: "Proven",
     description:
       "Discipline from fitness translates directly to consistency, focus, and leadership energy.",
     proofLabel: "Fitness mindset section",
@@ -281,20 +285,29 @@ export const talentSegments = [
   },
   {
     lane: "Communicate",
-    title: "Voice-over Artist",
-    status: "Emerging track",
+    maturity: "in_progress",
+    title: "Voice-over (In Training)",
+    status: "In Progress",
     description:
-      "I am actively growing this communication skill into a professional creative lane.",
-    proofLabel: "Current focus and identity arc",
+      "I am developing voice and delivery fundamentals before publishing polished public samples.",
+    proofLabel: "Current practice plan",
     href: "#now"
   },
   {
     lane: "Build",
-    title: "AI Presenter",
-    status: "Strategic growth",
+    maturity: "in_progress",
+    title: "AI Communication (In Progress)",
+    status: "In Progress",
     description:
-      "I am building AI-aware communication and presentation capability for modern tech leadership.",
-    proofLabel: "Thinking and AI direction",
-    href: "#thinking"
+      "I am actively building AI-focused communication and presentation capability for future leadership roles.",
+    proofLabel: "Current practice plan",
+    href: "#now"
   }
+];
+
+export const identityNowBuilding = [
+  "Practicing voice modulation, scripting, and recording discipline every week",
+  "Building a first set of voice-over samples before any commercial positioning",
+  "Preparing AI-focused communication decks for internal and community sessions",
+  "Turning learning progress into public proof in stages, not claims"
 ];
