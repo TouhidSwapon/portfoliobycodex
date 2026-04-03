@@ -185,6 +185,7 @@ export const insights = [
 
 export const nowFocus = [
   "Designing AI-assisted engineering workflows for real product teams",
+  "Building AI product discovery and roadmap thinking through practical experiments",
   "Developing AI presentation narratives for leadership and community sessions",
   "Mentoring engineers toward architecture and leadership readiness",
   "Training voice-over fundamentals to strengthen delivery and storytelling range",
@@ -296,10 +297,10 @@ export const talentSegments = [
   {
     lane: "Build",
     maturity: "in_progress",
-    title: "AI Communication (In Progress)",
+    title: "AI Product Strategist (In Progress)",
     status: "In Progress",
     description:
-      "I am actively building AI-focused communication and presentation capability for future leadership roles.",
+      "I am growing product-owner level AI thinking across discovery, prioritization, and roadmap decision making.",
     proofLabel: "Current practice plan",
     href: "#now"
   }
