@@ -77,7 +77,7 @@ export function Hero() {
         >
           <div className="relative mb-5 overflow-hidden rounded-2xl border border-[color:var(--edge)] shadow-glow">
             <Image
-              src="/images/legacy/avatar.jpg"
+              src="/images/highlights/profile/desk-profile.jpg"
               alt="Touhid Swapon portrait"
               width={640}
               height={420}

@@ -5,6 +5,7 @@ import { ContactSection } from "@/components/contact";
 import { ExperienceSection } from "@/components/experience";
 import { FitnessSection } from "@/components/fitness";
 import { Hero } from "@/components/hero";
+import { LegacyHighlightsSection } from "@/components/legacy-highlights";
 import { NowFocusSection } from "@/components/now-focus";
 import { ProjectsSection } from "@/components/projects";
 import { SiteNav } from "@/components/site-nav";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <AboutSection />
       <CapabilitiesSection />
       <ExperienceSection />
+      <LegacyHighlightsSection />
       <ProjectsSection />
       <ThinkingSection />
       <NowFocusSection />

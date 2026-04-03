@@ -187,3 +187,73 @@ export const nowFocus = [
   "Building calmer, higher-trust delivery cultures",
   "Exploring privacy-aware, responsible AI product directions"
 ];
+
+export const awardGallery = [
+  {
+    title: "Speaker Recognition at MobiCon Event",
+    image: "/images/highlights/awards/award-mobicon-speaker.jpg"
+  },
+  {
+    title: "Receiving First Prize in App Development from the District Commissioner",
+    image: "/images/highlights/awards/award-dc-first-prize.jpg"
+  },
+  {
+    title: "Receiving the World Summit Award in Delhi, India",
+    image: "/images/highlights/awards/award-world-summit-delhi.jpg"
+  },
+  {
+    title: "With Honorable Speakers at the World Summit Award, Delhi",
+    image: "/images/highlights/awards/award-honourable-speakers.jpg"
+  },
+  {
+    title: "Receiving the Best Host and Volunteer Award",
+    image: "/images/highlights/awards/award-best-host-volunteer.jpg"
+  },
+  {
+    title: "VR App Excellence Award",
+    image: "/images/highlights/awards/award-vr-excellence.jpg"
+  }
+];
+
+export const communityGallery = [
+  {
+    title: "Presenting a Mobile App in Delhi, India",
+    image: "/images/highlights/community/community-delhi-presentation.jpg"
+  },
+  {
+    title: "Presenting a VR 360 App at Grameenphone HQ",
+    image: "/images/highlights/community/community-vr-grammeenphone.jpg"
+  },
+  {
+    title: "Speaking on Mobile App Development at Southeast University",
+    image: "/images/highlights/community/community-southeast-talk.jpg"
+  },
+  {
+    title: "Speaking at BRAC University",
+    image: "/images/highlights/community/community-brac-talk.jpg"
+  },
+  {
+    title: "Prize-Giving Moment at DevFest",
+    image: "/images/highlights/community/community-devfest-prize.jpg"
+  },
+  {
+    title: "Hosting a Community Program Session",
+    image: "/images/highlights/community/community-hosting-session-1.jpg"
+  },
+  {
+    title: "Hosting a Technical Program Session",
+    image: "/images/highlights/community/community-hosting-session-2.jpg"
+  },
+  {
+    title: "Speaking at Google DevFest in My University",
+    image: "/images/highlights/community/community-devfest-university-talk.jpg"
+  },
+  {
+    title: "Talking on Firebase at UIU Lab",
+    image: "/images/highlights/community/community-firebase-uiu.jpg"
+  },
+  {
+    title: "Speaking at Women Techmakers Program, ULAB",
+    image: "/images/highlights/community/community-ulab-wtm.jpg"
+  }
+];

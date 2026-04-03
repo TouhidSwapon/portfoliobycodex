@@ -22,7 +22,7 @@ export function AboutSection() {
         <Reveal className="glass-card rounded-2xl p-5" delay={0.1}>
           <div className="relative mb-4 overflow-hidden rounded-xl border border-[color:var(--edge)]">
             <Image
-              src="/images/legacy/avatar.jpg"
+              src="/images/highlights/profile/desk-profile.jpg"
               alt="Touhid Swapon profile photo"
               width={520}
               height={420}
