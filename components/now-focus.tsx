@@ -6,7 +6,7 @@ export function NowFocusSection() {
     <section id="now" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Now / Current Focus</p>
-        <h2 className="section-title">What I am actively building and practicing right now.</h2>
+        <h2 className="section-title">What I am building and practicing now.</h2>
       </Reveal>
 
       <Reveal className="mt-8 rounded-2xl border border-[color:var(--edge)] bg-white/70 p-6 dark:bg-slate-950/60">

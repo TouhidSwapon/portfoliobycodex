@@ -31,7 +31,7 @@ export function ProjectsSection() {
     <section id="projects" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Projects</p>
-        <h2 className="section-title">Representative work framed by problem, solution, and impact.</h2>
+        <h2 className="section-title">Work stories in problem, solution, and impact.</h2>
       </Reveal>
 
       <div className="mt-8 grid gap-6">

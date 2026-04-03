@@ -36,7 +36,7 @@ export function IdentitySegmentsSection() {
     <section id="identity" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Identity Map</p>
-        <h2 className="section-title">One person, multiple high-signal lanes with clear proof paths.</h2>
+        <h2 className="section-title">One person. Multiple lanes. Clear proof.</h2>
       </Reveal>
 
       <div className="mt-8 grid gap-5 lg:grid-cols-4">

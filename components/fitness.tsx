@@ -6,7 +6,7 @@ export function FitnessSection() {
     <section id="fitness" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Fitness & Discipline</p>
-        <h2 className="section-title">Physical discipline is how I train consistency for leadership.</h2>
+        <h2 className="section-title">Discipline from fitness that strengthens leadership.</h2>
       </Reveal>
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">

@@ -6,7 +6,7 @@ export function ExperienceSection() {
     <section id="experience" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Experience</p>
-        <h2 className="section-title">Impact-first timeline across engineering leadership and community contribution.</h2>
+        <h2 className="section-title">Impact timeline across delivery, leadership, and community.</h2>
       </Reveal>
 
       <div className="mt-8 grid gap-7 lg:grid-cols-2">

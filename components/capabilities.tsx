@@ -6,7 +6,7 @@ export function CapabilitiesSection() {
     <section id="capabilities" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Capabilities</p>
-        <h2 className="section-title">Beyond tools: capability clusters that drive delivery and leadership.</h2>
+        <h2 className="section-title">Capability clusters that drive delivery and leadership.</h2>
       </Reveal>
 
       <div className="mt-8 grid gap-5 md:grid-cols-2">

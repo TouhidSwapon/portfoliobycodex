@@ -7,7 +7,7 @@ export function LegacyHighlightsSection() {
     <section id="highlights" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Visual Proof</p>
-        <h2 className="section-title">Selected award and community moments from your real journey.</h2>
+        <h2 className="section-title">Awards and community moments from the real journey.</h2>
       </Reveal>
 
       <div className="mt-8 rounded-3xl border border-[color:var(--edge)] bg-white/65 p-6 dark:bg-slate-950/55">

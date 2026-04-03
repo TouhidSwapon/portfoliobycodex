@@ -5,7 +5,7 @@ export const profile = {
   email: "touhid.swapon@gmail.com",
   headline: "Software Engineer -> Mentor -> Future Tech Leader",
   heroStatement:
-    "I build resilient products and mentor teams to lead confidently in the AI era.",
+    "I build resilient products, mentor engineers, and lead confidently in the AI era.",
   heroRotator: [
     "AI-aware builder",
     "Strategic mentor",

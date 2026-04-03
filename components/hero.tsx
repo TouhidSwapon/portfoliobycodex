@@ -38,7 +38,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.6 }}
-            className="max-w-3xl text-4xl font-semibold leading-tight md:text-6xl"
+            className="max-w-3xl text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl"
           >
             {profile.heroStatement}
           </motion.h1>
