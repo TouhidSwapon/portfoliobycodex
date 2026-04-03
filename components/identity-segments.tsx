@@ -10,44 +10,77 @@ const statusTone: Record<string, string> = {
   "Strategic growth": "bg-sky-100 text-sky-900 dark:bg-sky-900/40 dark:text-sky-100"
 };
 
+const laneOrder = ["Build", "Lead", "Communicate", "Discipline"] as const;
+
+const laneHeading: Record<(typeof laneOrder)[number], string> = {
+  Build: "Build",
+  Lead: "Lead",
+  Communicate: "Communicate",
+  Discipline: "Discipline"
+};
+
+const laneTone: Record<(typeof laneOrder)[number], string> = {
+  Build: "border-cyan-200/70 bg-cyan-50/55 dark:border-cyan-900/50 dark:bg-cyan-950/20",
+  Lead: "border-emerald-200/70 bg-emerald-50/55 dark:border-emerald-900/50 dark:bg-emerald-950/20",
+  Communicate: "border-indigo-200/70 bg-indigo-50/55 dark:border-indigo-900/50 dark:bg-indigo-950/20",
+  Discipline: "border-amber-200/70 bg-amber-50/55 dark:border-amber-900/50 dark:bg-amber-950/20"
+};
+
 export function IdentitySegmentsSection() {
+  const groupedSegments = laneOrder.map((lane) => ({
+    lane,
+    items: talentSegments.filter((segment) => segment.lane === lane)
+  }));
+
   return (
     <section id="identity" className="section-wrap">
       <Reveal>
         <p className="section-kicker">Identity Map</p>
-        <h2 className="section-title">One person, multiple high-signal lanes with clear proof.</h2>
+        <h2 className="section-title">One person, multiple high-signal lanes with clear proof paths.</h2>
       </Reveal>
 
-      <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {talentSegments.map((segment, index) => (
+      <div className="mt-8 grid gap-5 lg:grid-cols-4">
+        {groupedSegments.map(({ lane, items }, laneIndex) => (
           <Reveal
-            key={segment.title}
-            delay={index * 0.05}
-            className="glass-card rounded-2xl border border-[color:var(--edge)] p-5"
+            key={lane}
+            delay={laneIndex * 0.06}
+            className={`rounded-2xl border p-4 ${laneTone[lane]}`}
           >
-            <div className="flex items-center justify-between gap-3">
-              <h3 className="text-lg font-semibold">{segment.title}</h3>
-              <span
-                className={`rounded-full px-3 py-1 text-[11px] font-medium tracking-[0.08em] ${statusTone[segment.status]}`}
-              >
-                {segment.status}
-              </span>
+            <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
+              {laneHeading[lane]} Lane
+            </p>
+            <div className="mt-3 space-y-4">
+              {items.map((segment) => (
+                <article
+                  key={segment.title}
+                  className="glass-card rounded-xl border border-[color:var(--edge)] p-4"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <h3 className="text-base font-semibold">{segment.title}</h3>
+                    <span
+                      className={`rounded-full px-2.5 py-1 text-[10px] font-medium tracking-[0.08em] ${statusTone[segment.status]}`}
+                    >
+                      {segment.status}
+                    </span>
+                  </div>
+                  <p className="mt-3 text-sm leading-6 text-[color:var(--muted)]">{segment.description}</p>
+                  <a
+                    href={segment.href}
+                    className="mt-4 inline-flex text-sm font-medium text-cyan-700 transition hover:underline dark:text-cyan-300"
+                  >
+                    {segment.proofLabel}
+                  </a>
+                </article>
+              ))}
             </div>
-            <p className="mt-4 text-sm leading-6 text-[color:var(--muted)]">{segment.description}</p>
-            <a
-              href={segment.href}
-              className="mt-5 inline-flex text-sm font-medium text-cyan-700 transition hover:underline dark:text-cyan-300"
-            >
-              {segment.proofLabel}
-            </a>
           </Reveal>
         ))}
       </div>
 
       <Reveal className="mt-6 rounded-2xl border border-[color:var(--edge)] bg-white/65 p-5 dark:bg-slate-950/50">
         <p className="text-sm leading-7 text-[color:var(--muted)]">
-          This portfolio is intentionally segmented so visitors can quickly see technical depth, leadership signal,
-          communication strengths, and growth directions without losing a coherent personal brand narrative.
+          The layout is intentionally segmented so visitors can quickly map your technical core, leadership history,
+          communication evolution, and disciplined personal operating system in one structured scan.
         </p>
       </Reveal>
     </section>

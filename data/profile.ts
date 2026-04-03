@@ -9,6 +9,8 @@ export const profile = {
   heroRotator: [
     "AI-aware builder",
     "Strategic mentor",
+    "Technical speaker",
+    "Voice-over in progress",
     "Calm technical leader",
     "Communication-first engineer"
   ],
@@ -183,7 +185,9 @@ export const insights = [
 
 export const nowFocus = [
   "Designing AI-assisted engineering workflows for real product teams",
+  "Developing AI presentation narratives for leadership and community sessions",
   "Mentoring engineers toward architecture and leadership readiness",
+  "Training voice-over fundamentals to strengthen delivery and storytelling range",
   "Building calmer, higher-trust delivery cultures",
   "Exploring privacy-aware, responsible AI product directions"
 ];
@@ -240,6 +244,7 @@ export const communityGallery = [
 
 export const talentSegments = [
   {
+    lane: "Build",
     title: "App Developer",
     status: "Core Profession",
     description:
@@ -248,6 +253,7 @@ export const talentSegments = [
     href: "#projects"
   },
   {
+    lane: "Lead",
     title: "Mentor",
     status: "Active",
     description:
@@ -256,6 +262,7 @@ export const talentSegments = [
     href: "#experience"
   },
   {
+    lane: "Lead",
     title: "Speaker",
     status: "Legacy with momentum",
     description:
@@ -264,6 +271,7 @@ export const talentSegments = [
     href: "#highlights"
   },
   {
+    lane: "Discipline",
     title: "Fitness Enthusiast",
     status: "Operating system",
     description:
@@ -272,6 +280,7 @@ export const talentSegments = [
     href: "#fitness"
   },
   {
+    lane: "Communicate",
     title: "Voice-over Artist",
     status: "Emerging track",
     description:
@@ -280,6 +289,7 @@ export const talentSegments = [
     href: "#now"
   },
   {
+    lane: "Build",
     title: "AI Presenter",
     status: "Strategic growth",
     description:
