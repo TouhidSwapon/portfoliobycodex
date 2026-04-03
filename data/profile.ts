@@ -277,11 +277,11 @@ export const talentSegments = [
   {
     lane: "Discipline",
     maturity: "proven",
-    title: "Fitness Enthusiast",
-    status: "Proven",
+    title: "Fitness Discipline",
+    status: "Proven Foundation",
     description:
-      "Discipline from fitness translates directly to consistency, focus, and leadership energy.",
-    proofLabel: "Fitness mindset section",
+      "Built on 5+ years of gym consistency and self-study in nutrition, now rebuilding rhythm after a gap with a disciplined return plan.",
+    proofLabel: "Fitness journey",
     href: "#fitness"
   },
   {
@@ -310,5 +310,6 @@ export const identityNowBuilding = [
   "Practicing voice modulation, scripting, and recording discipline every week",
   "Building a first set of voice-over samples before any commercial positioning",
   "Preparing AI-focused communication decks for internal and community sessions",
+  "Restarting structured training blocks and tracking consistency before formal fitness certification",
   "Turning learning progress into public proof in stages, not claims"
 ];
