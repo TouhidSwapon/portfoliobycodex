@@ -53,7 +53,7 @@ export function FitnessSection() {
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
           Workout Moments
         </p>
-        <div className="mt-4 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="mt-4 grid gap-5 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           <div>
             <div className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
               <Image
@@ -87,7 +87,7 @@ export function FitnessSection() {
             </div>
           </div>
 
-          <div className="rounded-xl border border-[color:var(--edge)] bg-white/60 p-5 dark:bg-slate-950/45">
+          <div className="self-start rounded-xl border border-[color:var(--edge)] bg-white/60 p-5 dark:bg-slate-950/45">
             <p className="text-sm leading-7 text-[color:var(--muted)]">
               These are real workout moments from my routine. Fitness keeps me grounded in process over mood. It
               reinforces patience, repetition, and measurable progression, the same behaviors needed for mentoring
