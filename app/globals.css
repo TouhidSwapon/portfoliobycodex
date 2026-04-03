@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f6fbff;
+  --text: #0b1d2f;
+  --muted: #4f6478;
+  --surface: rgba(255, 255, 255, 0.74);
+  --edge: rgba(90, 128, 168, 0.25);
+}
+
+.dark {
+  --bg: #06101d;
+  --text: #dfeeff;
+  --muted: #95acc3;
+  --surface: rgba(7, 17, 29, 0.72);
+  --edge: rgba(118, 159, 202, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 10% 0%, rgba(86, 186, 255, 0.25), transparent 35%),
+    radial-gradient(circle at 85% 15%, rgba(56, 229, 180, 0.18), transparent 35%),
+    var(--bg);
+  font-family: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.section-wrap {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 4.5rem 1.5rem 0;
+}
+
+.section-kicker {
+  font-family: "JetBrains Mono", "IBM Plex Mono", "Menlo", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.section-title {
+  margin-top: 0.6rem;
+  max-width: 54rem;
+  font-size: clamp(1.55rem, 3.2vw, 2.5rem);
+  line-height: 1.2;
+  font-weight: 620;
+}
+
+.glass-card {
+  border: 1px solid var(--edge);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.45));
+  backdrop-filter: blur(14px);
+}
+
+.dark .glass-card {
+  background: linear-gradient(135deg, rgba(9, 22, 38, 0.78), rgba(8, 18, 30, 0.5));
+}
+
+::selection {
+  background: rgba(102, 210, 255, 0.32);
+}
+
+@media (max-width: 768px) {
+  .section-wrap {
+    padding-top: 3.8rem;
+  }
+}
