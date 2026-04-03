@@ -53,41 +53,39 @@ export function FitnessSection() {
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">
           Workout Moments
         </p>
-        <div className="mt-4 grid gap-5 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-          <div>
-            <div className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
-              <Image
-                src={primaryImage.src}
-                alt={primaryImage.alt}
-                width={960}
-                height={1280}
-                sizes="(min-width: 1024px) 42vw, (min-width: 768px) 50vw, 100vw"
-                quality={70}
-                className="aspect-[4/5] w-full object-cover"
-                style={{ objectPosition: primaryImage.focus }}
-              />
-            </div>
-
-            <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-              {secondaryImages.map((image, index) => (
-                <div key={image.src} className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={960}
-                    height={1280}
-                    sizes="(min-width: 1024px) 13vw, (min-width: 640px) 28vw, 45vw"
-                    quality={68}
-                    loading={index < 2 ? "eager" : "lazy"}
-                    className="aspect-[4/5] w-full object-cover transition duration-300 hover:scale-[1.02]"
-                    style={{ objectPosition: image.focus }}
-                  />
-                </div>
-              ))}
-            </div>
+        <div className="mt-4">
+          <div className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
+            <Image
+              src={primaryImage.src}
+              alt={primaryImage.alt}
+              width={960}
+              height={1280}
+              sizes="(min-width: 1024px) 60vw, (min-width: 768px) 75vw, 100vw"
+              quality={70}
+              className="aspect-[4/5] w-full object-cover"
+              style={{ objectPosition: primaryImage.focus }}
+            />
           </div>
 
-          <div className="self-start rounded-xl border border-[color:var(--edge)] bg-white/60 p-5 dark:bg-slate-950/45">
+          <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {secondaryImages.map((image, index) => (
+              <div key={image.src} className="overflow-hidden rounded-xl border border-[color:var(--edge)]">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={960}
+                  height={1280}
+                  sizes="(min-width: 1024px) 19vw, (min-width: 640px) 30vw, 45vw"
+                  quality={68}
+                  loading={index < 2 ? "eager" : "lazy"}
+                  className="aspect-[4/5] w-full object-cover transition duration-300 hover:scale-[1.02]"
+                  style={{ objectPosition: image.focus }}
+                />
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-4 rounded-xl border border-[color:var(--edge)] bg-white/60 p-5 dark:bg-slate-950/45">
             <p className="text-sm leading-7 text-[color:var(--muted)]">
               These are real workout moments from my routine. Fitness keeps me grounded in process over mood. It
               reinforces patience, repetition, and measurable progression, the same behaviors needed for mentoring
