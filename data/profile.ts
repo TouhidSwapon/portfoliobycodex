@@ -10,7 +10,7 @@ export const profile = {
     "AI-aware builder",
     "Strategic mentor",
     "Technical speaker",
-    "Voice-over in training",
+    "Voice-over artist in training",
     "Calm technical leader",
     "Communication-first engineer"
   ],
@@ -247,10 +247,10 @@ export const talentSegments = [
   {
     lane: "Build",
     maturity: "proven",
-    title: "App Developer",
+    title: "Software Engineer (Mobile & Product Delivery)",
     status: "Proven",
     description:
-      "Mobile engineering is my strongest lane, from Android depth to cross-platform delivery.",
+      "Software engineering is my core lane, with deep mobile expertise from Android foundations to cross-platform product delivery.",
     proofLabel: "Projects and delivery history",
     href: "#projects"
   },
@@ -287,7 +287,7 @@ export const talentSegments = [
   {
     lane: "Communicate",
     maturity: "in_progress",
-    title: "Voice-over (In Training)",
+    title: "Voice-over Artist (In Training)",
     status: "In Progress",
     description:
       "I am developing voice and delivery fundamentals before publishing polished public samples.",
