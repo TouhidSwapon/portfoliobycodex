@@ -1,6 +1,6 @@
 export const profile = {
   name: "Touhid Swapon",
-  role: "Senior Software Engineer",
+  role: "Software Analyst",
   location: "Dhaka, Bangladesh",
   email: "touhid.swapon@gmail.com",
   headline: "Software Engineer -> Mentor -> Future Tech Leader",
