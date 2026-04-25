@@ -3,10 +3,10 @@ import Image from "next/image";
 import { Reveal } from "./reveal";
 
 const projectVisualMap: Record<string, { src: string; focus: string; note: string }> = {
-  "Mobile Product Reliability Program": {
-    src: "/images/legacy/folio-4.jpg",
-    focus: "52% 40%",
-    note: "Reliability and release excellence"
+  "Google Developer Android Study Jam 2015": {
+    src: "/images/highlights/community/community-hosting-session-2.jpg",
+    focus: "50% 30%",
+    note: "Android community training across Bangladesh"
   },
   "Cross-Platform Delivery Evolution": {
     src: "/images/legacy/folio-1.jpg",

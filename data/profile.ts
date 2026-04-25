@@ -107,13 +107,13 @@ export const community = [
 
 export const projects = [
   {
-    title: "Mobile Product Reliability Program",
+    title: "Google Developer Android Study Jam 2015",
     challenge:
-      "A growing product portfolio needed stronger release confidence and less firefighting.",
+      "Limited Android learning resources, mentorship, and structured training for university students in Bangladesh.",
     solution:
-      "Introduced engineering quality gates, clearer ownership boundaries, and architecture-level review patterns.",
+      "Coordinated Google Developer Android Study Jam across 30+ universities through training, workshops, speaking, and community building under GDG Dhaka.",
     impact:
-      "Improved release stability and helped teams focus on feature value rather than repeated incident recovery."
+      "Helped train 1000+ Android developers nationwide and strengthened the student developer ecosystem across Bangladesh."
   },
   {
     title: "Cross-Platform Delivery Evolution",
