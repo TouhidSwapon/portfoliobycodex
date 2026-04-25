@@ -1,5 +1,4 @@
 import { AssistantOrb } from "@/components/assistant-orb";
-import { CapabilitiesSection } from "@/components/capabilities";
 import { ContactSection } from "@/components/contact";
 import { ExperienceSection } from "@/components/experience";
 import { FitnessSection } from "@/components/fitness";
@@ -17,7 +16,6 @@ export default function HomePage() {
       <SiteNav />
       <Hero />
       <IdentitySegmentsSection />
-      <CapabilitiesSection />
       <ExperienceSection />
       <LegacyHighlightsSection />
       <ProjectsSection />

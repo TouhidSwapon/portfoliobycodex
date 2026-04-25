@@ -21,33 +21,6 @@ export const profile = {
   }
 };
 
-export const capabilities = [
-  {
-    title: "Building Scalable Systems",
-    description:
-      "Designing mobile and cross-platform architectures that stay maintainable as products, users, and teams grow.",
-    tags: ["Android", "Flutter", "System design"]
-  },
-  {
-    title: "Leading Through Clarity",
-    description:
-      "Translating ambiguous business goals into clear execution plans, ownership maps, and reliable delivery cycles.",
-    tags: ["Technical planning", "Stakeholder alignment", "Ownership"]
-  },
-  {
-    title: "Mentoring Engineers",
-    description:
-      "Coaching developers from task execution to decision-making by improving communication, architecture thinking, and confidence.",
-    tags: ["Mentorship", "Code review", "Career growth"]
-  },
-  {
-    title: "Adapting to AI",
-    description:
-      "Integrating AI tooling into engineering workflows without sacrificing product judgment, quality standards, or ethics.",
-    tags: ["AI workflows", "Product judgment", "Responsible tech"]
-  }
-];
-
 export const experiences = [
   {
     role: "Software Analyst",
