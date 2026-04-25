@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --bg: #e9eef7;
+  --bg: #eceff3;
   --text: #0f1a2b;
-  --muted: #4c5d75;
+  --muted: #4f5e74;
   --surface: rgba(255, 255, 255, 0.84);
-  --edge: rgba(74, 99, 140, 0.26);
+  --edge: rgba(92, 109, 135, 0.24);
 }
 
 .dark {
@@ -30,9 +30,9 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at 8% -8%, rgba(56, 132, 255, 0.25), transparent 36%),
-    radial-gradient(circle at 92% 10%, rgba(20, 35, 69, 0.12), transparent 34%),
-    radial-gradient(circle at 52% 102%, rgba(99, 102, 241, 0.16), transparent 32%),
+    radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.7), transparent 36%),
+    radial-gradient(circle at 88% 12%, rgba(212, 218, 228, 0.35), transparent 34%),
+    linear-gradient(180deg, rgba(245, 247, 250, 0.92), rgba(236, 239, 243, 0.94)),
     var(--bg);
   font-family: "Sora", "Avenir Next", "Segoe UI", sans-serif;
   line-height: 1.5;

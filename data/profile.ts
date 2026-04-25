@@ -21,12 +21,6 @@ export const profile = {
   }
 };
 
-export const aboutStory = [
-  "I started as a focused Android developer who preferred quiet execution. Over time, real product work taught me that great software depends on communication, alignment, and disciplined decisions.",
-  "That shift moved me from individual delivery to mentoring and leadership. Today I coach engineers, shape technical direction, and help teams execute clearly under pressure.",
-  "My Electronics and Communication Engineering background keeps my thinking system-driven and outcome-focused. Fitness reinforces the same habit: consistency over intensity."
-];
-
 export const capabilities = [
   {
     title: "Building Scalable Systems",
@@ -301,6 +295,16 @@ export const talentSegments = [
     status: "In Progress",
     description:
       "I am growing product-owner level AI thinking across discovery, prioritization, and roadmap decision making.",
+    proofLabel: "Current practice plan",
+    href: "#now"
+  },
+  {
+    lane: "Lead",
+    maturity: "in_progress",
+    title: "Consultant (Career & Product)",
+    status: "In Progress",
+    description:
+      "I provide focused career and product consultancy sessions, helping people and teams make clearer growth and product decisions.",
     proofLabel: "Current practice plan",
     href: "#now"
   }
