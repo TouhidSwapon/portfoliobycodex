@@ -19,7 +19,7 @@ export function IdentitySegmentsSection() {
       </Reveal>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        <Reveal className="rounded-2xl border border-sky-200/70 bg-sky-50/55 p-5 dark:border-sky-900/45 dark:bg-sky-950/20">
+        <Reveal className="rounded-2xl border border-blue-200/75 bg-white/74 p-5 dark:border-blue-900/40 dark:bg-slate-900/40">
           <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">Proven Lanes</p>
           <div className="mt-4 grid gap-4">
             {provenSegments.map((segment) => (
@@ -46,7 +46,7 @@ export function IdentitySegmentsSection() {
 
         <Reveal
           delay={0.06}
-          className="rounded-2xl border border-slate-200/80 bg-slate-50/70 p-5 dark:border-slate-800/70 dark:bg-slate-900/35"
+          className="rounded-2xl border border-slate-300/80 bg-white/66 p-5 dark:border-slate-800/80 dark:bg-slate-950/35"
         >
           <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[color:var(--muted)]">Emerging Lanes</p>
           <div className="mt-4 grid gap-4">

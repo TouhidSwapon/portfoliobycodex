@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f4f7fc;
-  --text: #0e1b2c;
-  --muted: #55657a;
-  --surface: rgba(255, 255, 255, 0.78);
-  --edge: rgba(96, 121, 156, 0.24);
+  --bg: #e9eef7;
+  --text: #0f1a2b;
+  --muted: #4c5d75;
+  --surface: rgba(255, 255, 255, 0.84);
+  --edge: rgba(74, 99, 140, 0.26);
 }
 
 .dark {
-  --bg: #07111e;
-  --text: #e5efff;
-  --muted: #94a9c2;
-  --surface: rgba(8, 18, 32, 0.74);
-  --edge: rgba(133, 159, 193, 0.24);
+  --bg: #020817;
+  --text: #e2ebff;
+  --muted: #8ca0bc;
+  --surface: rgba(8, 15, 32, 0.8);
+  --edge: rgba(119, 144, 186, 0.26);
 }
 
 * {
@@ -30,9 +30,9 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at 12% 0%, rgba(120, 162, 255, 0.22), transparent 36%),
-    radial-gradient(circle at 88% 14%, rgba(96, 210, 255, 0.16), transparent 34%),
-    radial-gradient(circle at 52% 100%, rgba(255, 214, 142, 0.1), transparent 30%),
+    radial-gradient(circle at 8% -8%, rgba(56, 132, 255, 0.25), transparent 36%),
+    radial-gradient(circle at 92% 10%, rgba(20, 35, 69, 0.12), transparent 34%),
+    radial-gradient(circle at 52% 102%, rgba(99, 102, 241, 0.16), transparent 32%),
     var(--bg);
   font-family: "Sora", "Avenir Next", "Segoe UI", sans-serif;
   line-height: 1.5;
