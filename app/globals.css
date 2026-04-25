@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f6fbff;
-  --text: #0b1d2f;
-  --muted: #4f6478;
-  --surface: rgba(255, 255, 255, 0.74);
-  --edge: rgba(90, 128, 168, 0.25);
+  --bg: #f4f7fc;
+  --text: #0e1b2c;
+  --muted: #55657a;
+  --surface: rgba(255, 255, 255, 0.78);
+  --edge: rgba(96, 121, 156, 0.24);
 }
 
 .dark {
-  --bg: #06101d;
-  --text: #dfeeff;
-  --muted: #95acc3;
-  --surface: rgba(7, 17, 29, 0.72);
-  --edge: rgba(118, 159, 202, 0.2);
+  --bg: #07111e;
+  --text: #e5efff;
+  --muted: #94a9c2;
+  --surface: rgba(8, 18, 32, 0.74);
+  --edge: rgba(133, 159, 193, 0.24);
 }
 
 * {
@@ -30,8 +30,9 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at 10% 0%, rgba(86, 186, 255, 0.25), transparent 35%),
-    radial-gradient(circle at 85% 15%, rgba(56, 229, 180, 0.18), transparent 35%),
+    radial-gradient(circle at 12% 0%, rgba(120, 162, 255, 0.22), transparent 36%),
+    radial-gradient(circle at 88% 14%, rgba(96, 210, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 52% 100%, rgba(255, 214, 142, 0.1), transparent 30%),
     var(--bg);
   font-family: "Sora", "Avenir Next", "Segoe UI", sans-serif;
   line-height: 1.5;
